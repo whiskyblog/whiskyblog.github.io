@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Memoirs, a free minimalist Jekyll blogging theme with modern design 
+title: Über Uns
 permalink: /about
 comments: false
-image: assets/images/screenshot.jpg
+image: assets/images/logo.png
 imageshadow: true
 ---
 
-This website is a demonstration to see **Memoirs Jekyll theme** in action. The theme is compatible with Github pages, in fact even this demo itself is created with Github Pages and hosted with Github. 
+Der Whisky Laird ist ein privater Blog zum Teilen unserer Erfahrungen mit dem Thema Whisky. Er wird als Hobby betrieben.
 
-<a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/" class="btn btn-dark"> Get Memoirs for Jekyll &rarr;</a>
+**Laird** ist ein schottischer Lord, oder genauer ein Landbesitzer in Schottland. Auch wenn Laird mit Lord übersetzt wird ist es kein Adelstitel im eigentlichen Sinne.
 
+**Disclaimer:** Jeder hier verkostete Whisky wurde privat erworben. Es gibt keine Absprache mit Herstellern oder Händlern. 

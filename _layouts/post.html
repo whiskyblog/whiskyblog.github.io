@@ -29,7 +29,6 @@ post_class: post-template
     </div>
     {% endif %}
 </div>
-
 <!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
 {% if site.adsense == "enabled" %}
     {% include adsense-under-header.html %}
@@ -38,13 +37,16 @@ post_class: post-template
 <!-- Featured Image -->
 {% include featured-image.html %}
 
+<!-- Review Table -->
+{% include review_table.html %}
+
 <!-- Content -->
 {% include article.html %}
 
 <!-- Rating -->
 {% if page.rating %}
 <div class="rating mt-4 mb-4 d-flex align-items-center">
-    <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
+    <strong class="mr-1">Bewertung:</strong> {% include star_rating.html %}
 </div>
 {% endif %}
 

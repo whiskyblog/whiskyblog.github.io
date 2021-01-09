@@ -1,0 +1,77 @@
+{% if page.posttype == "review" %}
+<style>
+p {text-align: center}
+table {
+	text-align: left;
+	width: 100px
+}
+table.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+</style>
+<div class=review_table>
+	<p>
+		{% if page.distillery %}
+		{% assign distillery = site.data.distilleries[page.distillery] %}
+		<h2>Die Brennerei</h2>
+		<br>
+		<b>Name:</b> {{ distillery.name }} <b>Gegründet:</b> {{ distillery.founded }} <b>Ort:</b> {{ distillery.location }}, {{ distillery.country}} <b>Eigentümer:</b> {{ distillery.owner }} <b>Status:</b> {{ distillery.status }}
+		<br><br>
+		{{ distillery.description }}
+		<br>
+		<br>
+		{% endif %}
+	</p>
+	<p>
+		<h2>Review</h2>
+		<br>
+		<table class=center style="width:100%">
+			<tr>
+				<td>Name</td>
+				<td>{{ page.title }}</td>
+			</tr>
+			<tr>
+				<td>Typ</td>
+				<td>{{ page.type }}</td>
+			</tr>
+			<tr>
+				<td>Region</td>
+				<td>{{ page.region }}</td>
+			</tr>
+			<tr>
+				<td>Fässer</td>
+				<td>{{ page.casks }}</td>
+			</tr>
+			<tr>
+				<td>Farbe</td>
+				<td>{{ page.color }}</td>
+			</tr>
+			<tr>
+				<td>Filterung</td>
+				<td>{{ page.chill }}</td>
+			</tr>
+			<tr>
+				<td>Alkoholgehalt</td>
+				<td>{{ page.abv }}</td>
+			</tr>
+			<tr>
+				<td>Preis</td>
+				<td>{{ page.price }}</td>
+			</tr>
+			<tr>
+				<td>Aroma</td>
+				<td>{{ page.nose }}</td>
+			</tr>
+			<tr>
+				<td>Geschmack</td>
+				<td>{{ page.palate }}</td>
+			</tr>
+			<tr>
+				<td>Abgang</td>
+				<td>{{ page.finish }}</td>
+			</tr>
+		</table>
+	</p>
+</div>
+{% endif %}

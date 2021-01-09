@@ -1,0 +1,16 @@
+glenlivet:
+  name: The Glenlivet Distillery
+  country: Schottland
+  location: Moray
+  owner: Pernod Ricard
+  founded: 1824
+  status: In Betrieb
+  description: |
+    Die Brennerei Glenlivet in Moray, Schottland, ist die älteste Brennerei der Region. Seit ihrer Gründung 1824 produzierte sie beinahe durchgängig Single Malt Scotch Whisky.
+    Die Größe der Marke lässt sich erahnen, wenn man weiß, dass Glenlivet der meistverkaufte Single Malt in den USA. Global platzieren sich die Produkte von Glenlivet im Verkaufsranking auf Platz 2.
+    Der Name The Glenlivet beruht darauf, dass früher mehrere Brennereien in der Gegend den Namen Glenlivet für ihre Produkte nutzten. Glenlivet stellte das THE, also DER Glenlivet, vor ihren Namen,
+    um zu symbolisieren, dass nur sie das Original sind.
+
+balvenie:
+  name: The Balvenie Distillery
+  county: Schottland
