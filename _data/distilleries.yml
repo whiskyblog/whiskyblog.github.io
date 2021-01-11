@@ -13,4 +13,10 @@ glenlivet:
 
 balvenie:
   name: The Balvenie Distillery
-  county: Schottland
+  country: Schottland
+  location: Dufftown
+  Owner: William Grant & Sons
+  founded: 1824
+  status: In Betrieb
+  description: |
+    Balvenie ist eine schottische Whiskybrennerei in der Whiskyhauptstadt der Speyside Dufftown. 1892 gegründet gehört sie zu William Grant & Sons (Glenfiddich). Benannt ist die Brennerei nach dem nahegelegenem Balvenie Castle. Balvenie zeichnet sich durch einen süßen Brennereicharakter aus.
