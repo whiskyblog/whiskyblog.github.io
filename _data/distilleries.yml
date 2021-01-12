@@ -15,8 +15,18 @@ balvenie:
   name: The Balvenie Distillery
   country: Schottland
   location: Dufftown
-  Owner: William Grant & Sons
+  owner: William Grant & Sons
   founded: 1824
   status: In Betrieb
   description: |
     Balvenie ist eine schottische Whiskybrennerei in der Whiskyhauptstadt der Speyside Dufftown. 1892 gegründet gehört sie zu William Grant & Sons (Glenfiddich). Benannt ist die Brennerei nach dem nahegelegenem Balvenie Castle. Balvenie zeichnet sich durch einen süßen Brennereicharakter aus.
+
+glendronach:
+  name: Glendronach
+  country: Schottland
+  location: Forgue 
+  owner: Brown-Forman
+  founded: 1826
+  status: In Betrieb
+  description: |
+    Die Glendronach Brennerei wurde 1826 von James Allardice in Forgue bei Huntley gegründet. In den Jahren 1996 bis 2002 war die Brennerei geschlossen, weshalb man heute noch in einigen älteren Abfüllungen älteren Whisky als angegeben finden kann. Heute gehört die Brennerei zu Brown-Forman (Jack Daniel's, Benriach) und ist bekannt für ihre sherrylastigen Abfüllungen. Im Brennereicharakter von Glendronach findet man Vanille und reifes Obst.
