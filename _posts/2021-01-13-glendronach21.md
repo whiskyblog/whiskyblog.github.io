@@ -10,7 +10,7 @@ description: "Die Mutter aller Sherry-Bomben."
 type: Single Malt Scotch
 region: Highlands
 distillery: glendronach
-color: Bernstein
+color: Dunkler Bernstein
 casks: Oloroso & PX Sherry
 chill: Nicht kühlgefiltert
 abv: 48% Abv.
